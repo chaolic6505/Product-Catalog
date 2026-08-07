@@ -1,0 +1,430 @@
+[
+{
+  "model": "products.category",
+  "pk": 1,
+  "fields": {
+    "name": "Fasteners",
+    "code": "fasteners"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 2,
+  "fields": {
+    "name": "Safety",
+    "code": "safety"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 3,
+  "fields": {
+    "name": "Power",
+    "code": "power"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 4,
+  "fields": {
+    "name": "Handtools",
+    "code": "handtools"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 5,
+  "fields": {
+    "name": "Measuring",
+    "code": "measuring"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Compact",
+    "code": "compact"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 2,
+  "fields": {
+    "name": "Cordless",
+    "code": "cordless"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 3,
+  "fields": {
+    "name": "Ergonomic",
+    "code": "ergonomic"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 4,
+  "fields": {
+    "name": "Heavy",
+    "code": "heavy"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 5,
+  "fields": {
+    "name": "Insulated",
+    "code": "insulated"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 6,
+  "fields": {
+    "name": "Magnetic",
+    "code": "magnetic"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 7,
+  "fields": {
+    "name": "Portable",
+    "code": "portable"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 8,
+  "fields": {
+    "name": "Rechargeable",
+    "code": "rechargeable"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 9,
+  "fields": {
+    "name": "Refurbished",
+    "code": "refurbished"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 10,
+  "fields": {
+    "name": "Waterproof",
+    "code": "waterproof"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "name": "Goggles",
+    "description": "This is a safety Goggles.",
+    "price": "1.00",
+    "category": 2,
+    "created_at": "2026-08-07T05:07:41.229Z",
+    "tags": [
+      1,
+      10
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "name": "Helmet",
+    "description": "This is a safety Helmet.",
+    "price": "2.00",
+    "category": 2,
+    "created_at": "2026-08-07T05:08:48.512Z",
+    "tags": [
+      3
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "name": "Gloves",
+    "description": "This is a safety Gloves.",
+    "price": "3.00",
+    "category": 2,
+    "created_at": "2026-08-07T05:09:24.304Z",
+    "tags": [
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "name": "Drill",
+    "description": "This is a cordless Drill.",
+    "price": "5.00",
+    "category": 3,
+    "created_at": "2026-08-07T05:10:21.200Z",
+    "tags": [
+      1,
+      2,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "name": "Headlamp",
+    "description": "This is a cordless Headlamp.",
+    "price": "4.00",
+    "category": 2,
+    "created_at": "2026-08-07T05:12:27.831Z",
+    "tags": [
+      1,
+      2,
+      7,
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "name": "Grinder",
+    "description": "This is a cordless Grinder.",
+    "price": "6.00",
+    "category": 3,
+    "created_at": "2026-08-07T05:13:18.039Z",
+    "tags": [
+      2,
+      4,
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+    "name": "Sander",
+    "description": "This is a cordless Sander.",
+    "price": "7.00",
+    "category": 3,
+    "created_at": "2026-08-07T05:13:55.652Z",
+    "tags": [
+      1,
+      2,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+    "name": "Saw",
+    "description": "This is a cordless Saw.",
+    "price": "8.00",
+    "category": 3,
+    "created_at": "2026-08-07T05:14:34.963Z",
+    "tags": [
+      2,
+      4,
+      8
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 9,
+  "fields": {
+    "name": "Hammer",
+    "description": "This is a steel Hammer.",
+    "price": "9.00",
+    "category": 4,
+    "created_at": "2026-08-07T05:14:46.274Z",
+    "tags": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 10,
+  "fields": {
+    "name": "Wrench",
+    "description": "This is a steel Wrench.",
+    "price": "10.00",
+    "category": 4,
+    "created_at": "2026-08-07T05:15:31.252Z",
+    "tags": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 11,
+  "fields": {
+    "name": "Pliers",
+    "description": "This is a steel Pliers.",
+    "price": "11.00",
+    "category": 4,
+    "created_at": "2026-08-07T05:15:43.433Z",
+    "tags": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 12,
+  "fields": {
+    "name": "Screwdriver",
+    "description": "This is a steel Screwdriver.",
+    "price": "12.00",
+    "category": 4,
+    "created_at": "2026-08-07T05:15:55.873Z",
+    "tags": [
+      1,
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+    "name": "Tape",
+    "description": "This is a steel Tape.",
+    "price": "13.00",
+    "category": 5,
+    "created_at": "2026-08-07T05:16:54.866Z",
+    "tags": [
+      1,
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+    "name": "Level",
+    "description": "This is a cordless Level.",
+    "price": "14.00",
+    "category": 5,
+    "created_at": "2026-08-07T05:17:07.663Z",
+    "tags": [
+      2,
+      6,
+      8
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 15,
+  "fields": {
+    "name": "Square",
+    "description": "This is a steel Square.",
+    "price": "15.00",
+    "category": 5,
+    "created_at": "2026-08-07T05:17:18.814Z",
+    "tags": [
+      1,
+      7
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 16,
+  "fields": {
+    "name": "Caliper",
+    "description": "This is a cordless Caliper.",
+    "price": "16.00",
+    "category": 5,
+    "created_at": "2026-08-07T05:17:32.209Z",
+    "tags": [
+      1,
+      2,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 17,
+  "fields": {
+    "name": "Screws",
+    "description": "This is a steel Screws.",
+    "price": "17.00",
+    "category": 1,
+    "created_at": "2026-08-07T05:18:15.124Z",
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 18,
+  "fields": {
+    "name": "Nails",
+    "description": "This is a steel Nails.",
+    "price": "18.00",
+    "category": 1,
+    "created_at": "2026-08-07T05:18:23.980Z",
+    "tags": []
+  }
+},
+{
+  "model": "products.product",
+  "pk": 19,
+  "fields": {
+    "name": "Bolts",
+    "description": "This is a steel Bolts.",
+    "price": "20.00",
+    "category": 1,
+    "created_at": "2026-08-07T05:18:45.255Z",
+    "tags": [
+      4
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 20,
+  "fields": {
+    "name": "Anchors",
+    "description": "This is a steel Anchors.",
+    "price": "19.00",
+    "category": 1,
+    "created_at": "2026-08-07T05:19:32.079Z",
+    "tags": [
+      4
+    ]
+  }
+}
+]
